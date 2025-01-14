@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>FAJ FORMS</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div>
+    <h1>Forms</h1>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+
+      <!--Name-->
+      <lable for="name">Name</lable> <br>
+      <input type="text" placeholder="Your name here.." required>
+      <br> <br>
+      <!--Email-->
+      <lable for="email">Email</lable>
+      <input type="email" placeholder="Your email here.." value="123@123.com" readonly>
+      <!--password-->
+      <br><br>
+      <lable for="Pass">Password</lable> <br>
+      <input for="Pasword">
+    </fieldset>
+      <!--radio-->
+      <lable for="gender">Gender</lable><br>
+      <input type="radio" name="gender"value="M">
+      <lable for="M">male</lable>
+      <input type="radio" name="gender" value="Fm">
+      <lable for="Fm">Female</lable>
+      <br><br>
+      <fieldset>
+        <legend>Vehicles</legend>
+      <!--checkbox-->
+     
+      <lable for="Vehicles">Do you have vehicle?</lable>
+      <br>  
+      <input type="checkbox" value="car">
+      <lable for="car">I have car</lable> <br>
+
+      
+      <input type="checkbox" value="bike">
+      <lable for="bike">I have a bike</lable> <br>
+
+      <input type="checkbox" value="bicycle">
+      <lable for="bicycle">I have a bicycle</lable> <br>
+    </fieldset>
+      <!--select-->
+      <br><br>
+      <label for="language">What is your Favourite Language</label>
+      <select name="language" id="language">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JS/TS">JS/TS</option>
+      </select>
+      <!--Textarea-->
+      <br><br>
+      <label for="add">Your Address</label>
+      <Textarea name="address" id="address" cols="50" rows="5" placeholder="Your address here">123</Textarea><br>
+
+
+
+      <!--buttons-->
+      <br><br>
+      <input type="submit">
+      <input type="reset">
+      <button type="reset">kuch Bhi</button>
+    </form>
+  </div>
+</body>
+</html>
